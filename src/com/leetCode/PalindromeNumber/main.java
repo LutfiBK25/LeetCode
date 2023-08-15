@@ -1,6 +1,6 @@
 package com.leetCode.PalindromeNumber;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         System.out.println(isPalindrome(100));
 
@@ -23,6 +23,8 @@ public class main {
         }
         return ans;
     }
+
+    //Leet Code Solution
     public boolean isPalindromeSolution(int x) {
         if (x < 0) {
             return false;
